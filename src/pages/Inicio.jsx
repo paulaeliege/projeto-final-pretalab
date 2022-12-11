@@ -12,7 +12,7 @@ export function Inicio() {
                 <div className={styles.cardContainer}>
                     <Alien size={150} color="#686AAC" weight="thin" />
                     <h2 className={styles.cardTitle}>Vida</h2>
-                    <p className={styles.cardText}>Eu conto um pouquinho sobre mim, minha formação, a história da minha migração de carreira, gostos e curiosidades.</p>
+                    <p className={styles.cardText}>Eu conto um pouquinho sobre mim, estudos, gostos e curiosidades.</p>
                 </div>
                 <div className={styles.cardContainer}>
                     <BracketsCurly size={150} color="#686AAC" weight="thin" />
@@ -22,7 +22,7 @@ export function Inicio() {
                 <div className={styles.cardContainer}>
                     <AddressBook size={150} color="#686AAC" weight="thin" />
                     <h2 className={styles.cardTitle}>Contato</h2>
-                    <p className={styles.cardText}>Entre em contato comigo. Seja para entrevistas de emprego como deva ou para trocarmos ideias sobre os estudos.</p>
+                    <p className={styles.cardText}>Entre em contato comigo. Para trocarmos ideias sobre os estudos.</p>
                 </div>
             </div>
         </>

@@ -1,12 +1,42 @@
 .footerContainer {
-    padding: 2rem;
-    background: #686AAC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footerText {
-    color: #fff;
-    font-size: 1rem;
-  }
+  padding: 2rem;
+  background: #686AAC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.footerText {
+  color: #fff;
+  font-size: 1rem;
+  margin: revert;
+
+}
+
+.containerFooter {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.listaFooter li {
+  color: white;
+  display: inline;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.links {
+  color: white;
+  text-decoration: underline;
+  margin: 5px;
+}

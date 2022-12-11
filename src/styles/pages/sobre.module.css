@@ -1,0 +1,67 @@
+.sobreContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  
+  .bioTitle {
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: #474a52;
+    justify-content: center;
+  }
+  
+  .bioContainer {
+    width: 30rem;
+  }
+  
+  @media(max-width: 765px) {
+    .sobreContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .bioDescricao {
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #474a52;
+    text-align: justify;
+  
+  }
+  
+  .bioImage {
+    width: 30%;
+  }
+  
+  .homeContainer {
+      padding: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+      text-align: center;
+    }
+    
+    .cardContainer {
+    width: 100%;
+    }
+    
+    .cardTitle {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #474a52
+    }
+    
+    .cardText {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #474a52;
+    }
+    
+    @media(max-width: 765px) {
+    .homeContainer {
+      flex-direction: column;
+    }
+    }

@@ -1,0 +1,98 @@
+.projetosContainer {
+    width: 100%;
+    color: #686aac;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.projetosTitle {
+    font-size: 4rem;
+}
+
+.cardContainer {
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction:row;
+    gap: 3rem;
+    font-size: 1rem;
+}
+
+.card {
+    width: 30%;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.cardLink {
+    background-color: #686aac;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.repoCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.cardRepo {
+    background-color: #686aac;
+    width: 30%;
+    height: 230px;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.repoTitle {
+    color: white;
+    text-align: center;
+    
+}
+
+.repoTexto {
+    color: white;
+}
+
+@media(max-width: 765px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 320px;
+    }
+
+    .cardRepo {
+        width: 3200px;
+    }
+}
