@@ -3,6 +3,7 @@
     color: #686aac;
     text-align: center;
     padding-top: 6rem;
+    
 }
 
 .projetosTitle {
@@ -14,9 +15,10 @@
     width: 80%;
     padding: 2rem;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     gap: 3rem;
     font-size: 1rem;
+    justify-content: space-evenly;
 }
 
 .card {
